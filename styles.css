@@ -1,0 +1,33 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+@media screen and (max-width: 1440px) {
+    .grid {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .grid {
+        height: 40%;
+        width: 100%;
+    }
+}
